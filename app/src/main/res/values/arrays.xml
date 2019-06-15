@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_topics_labels">
+        <item>@string/settings_topics_life_and_style</item>
+        <item>@string/settings_topics_technology</item>
+        <item>@string/settings_topics_us_news</item>
+        <item>@string/settings_topics_world_news</item>
+        <item>@string/settings_topics_none</item>
+    </string-array>
+
+    <string-array name="settings_topics_values">
+        <item>@string/settings_topics_life_and_style_value</item>
+        <item>@string/settings_topics_technology_value</item>
+        <item>@string/settings_topics_us_news_value</item>
+        <item>@string/settings_topics_world_news_value</item>
+        <item>@string/settings_topics_none_value</item>
+    </string-array>
+
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_most_recent_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_most_recent_value</item>
+    </string-array>
+</resources>

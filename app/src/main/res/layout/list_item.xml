@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder_string"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"/>
+    <TextView
+        android:id="@+id/section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder_string"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder_string"
+        android:layout_below="@+id/title"
+        android:layout_toRightOf="@+id/section"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder_string"
+        android:layout_below="@+id/title"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="16dp"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>
